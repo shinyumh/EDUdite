@@ -7,7 +7,14 @@ body {
   /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
-  background-color: #3F7CAC;
+  background-color: #3ACEB6;
+  margin-left: 823px;
+  margin-right: 75px;
+  margin-top: 30px;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 15px;
 }
 
   /* Style the links inside the navigation bar */
@@ -15,7 +22,7 @@ body {
   float: right;
   display: flex;
   justify-content: flex-end;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -24,14 +31,12 @@ body {
 
   /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: #B9F3EA;
 }
 
   /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #0A014F;
-  color: white;
+  color: #3D3D3D;
 }
 
 /* learning styles page */
@@ -58,12 +63,31 @@ h2 {
   border-radius: 15px;
 }
 
+.startwhitebox {
+  background-color: white;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  height:auto;
+  border-radius: 15px;
+  margin-top: 75px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 .dirbutton {
   font-size: 20;
   color:white;
-  background-color: #3F7CAC;
-  border-radius: 2px;
-  padding: 10px;
+  background-color: #3ACEB6;
+  border-radius: 10px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.dirbutton:hover {
+color: #B9F3EA;
 }
 
 img {
@@ -73,4 +97,8 @@ img {
 
 progress {
   width: 500px;
+}
+
+header {
+  margin: 0 0 1em 0;
 }
