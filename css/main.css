@@ -3,13 +3,62 @@ body {
   background-color: #F6F6F6;
 }
 
+@font-face {
+    font-family: 'gilroy-bold'; /*a name to be used later*/
+    src: url('../assets/Gilroy-ExtraBold.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'gilroy-light'; /*a name to be used later*/
+    src: url('../assets/Gilroy-Light.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'sofia-pro'; /*a name to be used later*/
+    src: url('../assets/Sofia Pro Regular.ttf'); /*URL to font*/
+}
+
+h1 {
+  font-family: "gilroy-bold";
+}
+
+.description {
+  margin-left:200px;
+  margin-top: -30px;
+  margin-right:200px;
+  margin-bottom:50px;
+  font-family: "gilroy-light";
+  font-size: 20px;
+}
+
+.title {
+  font-family: "gilroy-bold";
+  font-size: 100px;
+  color: #3D3D3D;
+}
+
+.title-description {
+  font-size: 50px;
+  margin-top: -80px;
+  color: #3d3d3d;
+  font-family: "gilroy-light";
+}
+
+.bg-img {
+  background-image: url("../assets/start-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 /* navigation bar */
   /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
   background-color: #3ACEB6;
-  margin-left: 823px;
-  margin-right: 75px;
+  margin-left: 59%;
+  margin-right: 10%;
   margin-top: 30px;
   text-align: center;
   padding-right: 15px;
@@ -20,6 +69,7 @@ body {
   /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
+  font-family: "gilroy-extrabold";
   display: flex;
   justify-content: flex-end;
   color: white;
@@ -40,11 +90,14 @@ body {
 }
 
 /* learning styles page */
-h2 {
+h2, h3 {
   margin-top: 40px;
+  font-family: "sofia-pro";
 }
 
-
+p, span{
+  font-family: "gilroy-light";
+}
 /* lesson page */
 .pagecontent {
   padding-left: 20px;
@@ -86,10 +139,12 @@ h2 {
   border-radius: 10px;
   padding: 15px;
   text-decoration: none;
+  font-family: "gilroy-light";
 }
 
 .dirbutton:hover {
 color: #B9F3EA;
+font-family: "gilroy-light";
 }
 
 img {
@@ -99,17 +154,4 @@ img {
 
 progress {
   width: 500px;
-}
-
-header {
-  margin: 0 0 1em 0;
-}
-
-/* does not work yet */
-.bgimg {
-  background-image: url("/img/start_page_bg.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
