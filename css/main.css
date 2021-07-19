@@ -1,6 +1,6 @@
 /* original code is now in the style section of lesson.html  */
 body {
-  background-color: #C5D9E2;
+  background-color: #F6F6F6;
 }
 
 /* navigation bar */
@@ -61,6 +61,7 @@ h2 {
   text-align:justify;
   height:350px;
   border-radius: 15px;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
 }
 
 .startwhitebox {
@@ -75,6 +76,7 @@ h2 {
   margin-bottom: 100px;
   margin-left: 200px;
   margin-right: 200px;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
 }
 
 .dirbutton {
@@ -101,4 +103,13 @@ progress {
 
 header {
   margin: 0 0 1em 0;
+}
+
+/* does not work yet */
+.bgimg {
+  background-image: url("/img/start_page_bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
