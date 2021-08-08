@@ -70,7 +70,7 @@ h1 {
   /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
-  font-family: "gilroy-extrabold";
+  font-family: "gilroy-bold";
   display: flex;
   justify-content: flex-end;
   color: white;
