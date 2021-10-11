@@ -99,7 +99,7 @@ h2, h3 {
   font-family: "sofia-pro";
 }
 
-p, span{
+p, span, ul, ol, li{
   font-family: "gilroy-light";
 }
 /* lesson page */
