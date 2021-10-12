@@ -6,26 +6,34 @@ var totalScore = 0;
 
 function getLearningStyle()
 {
+
    if(document.getElementById('Vis').checked){
-     visualScore++
+     visualScore++;
    }
    if(document.getElementById('Aud').checked){
-     auditoryScore++
+     auditoryScore++;
    }
    if(document.getElementById('Kin').checked){
-     readwriteScore++
+     kinestheticScore++;
    }
    if(document.getElementById('R/W').checked){
-     totalScore++
+     readwriteScore++;
    }
-   totalScore = visualScore + auditoryScore + kinestheticScore + readwriteScore;
-   visualScore = visualScore/totalScore
-   auditoryScore = auditoryScore/totalScore
-   kinestheticScore = kinestheticScore/totalScore
-   readwriteScore = readwriteScore/totalScore
 
+   totalScore = visualScore + auditoryScore + kinestheticScore + readwriteScore;
+   visualScore = visualScore/totalScore;
+   auditoryScore = auditoryScore/totalScore;
+   kinestheticScore = kinestheticScore/totalScore;
+   readwriteScore = readwriteScore/totalScore;
+
+   //console.log(totalScore);
+   //console.log(visualScore);
 }
 
 getLearningStyle();
+//alert(visualScore);
+//alert(auditoryScore);
+//alert(kinestheticScore);
+//alert(readwriteScore);
 
 //really messy + doesn't work :(
